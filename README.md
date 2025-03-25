@@ -8,7 +8,9 @@ You can use the following guide to learn how and why to create a pull request.
 
 A pull request is a way to suggest changes to a repository. When you create a pull request, you propose your changes and request that someone review and pull in your contribution and merge them into their branch. Pull requests show differences between the content from both branches and the changes are visible in the repository.
 
-<!-- TODO: Add information on PRs and forks. -->
+**Forks and Pull Requests**
+
+Often, especially in open-source projects, you don't have direct write access to the main repository. In these cases, you would first create a *fork*, which is a personal copy of the repository in your own GitHub account. You then make your changes in your fork and submit a pull request to the original repository. This allows the maintainers to review your changes before merging them into the main project. Forks provide a safe way to experiment and contribute without affecting the original repository directly.
 
 ## Set up your environment
 
@@ -65,6 +67,9 @@ git remote -v
 Pull requests are so named basically because you are asking to _pull_ changes from a remote to your local repository. And that's because you have to ask permission to copy changes out of the repository, even if you have read access to that repository.
 
 <!--TODO: This answer is SO wrong, I think we need to fix it! -->
+### Why are pull requests called "Pull Requests"? (right or at least better answer)
+
+Pull requests don't from remote to local repos. They pull changes into the remote repo. You are adding the changes not takings them. 
 
 ### Create a local branch
 
